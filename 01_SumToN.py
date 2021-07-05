@@ -20,3 +20,5 @@ def sum_gauss(n):
 
 print(sum_gauss(5))
 print(sum_gauss(1001))
+
+# O(n)인 sum_n 알고리즘보다 O(1)인 sum_guass 알고리즘이 더 빠르다.
