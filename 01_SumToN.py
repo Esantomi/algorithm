@@ -22,3 +22,4 @@ print(sum_gauss(5))
 print(sum_gauss(1001))
 
 # O(n)인 sum_n 알고리즘보다 O(1)인 sum_guass 알고리즘이 더 빠르다.
+# 0(n)은 입력 크기와 계산 시간이 대체로 비례한다는 특징을 갖는다.

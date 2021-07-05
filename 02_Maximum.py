@@ -7,7 +7,7 @@
 
 # 내 풀이
 def maximum(list):
-    val = list[0]
+    val = 0
     for i in range(len(list)-1):
         if list[i] > val:
             val = list[i]
