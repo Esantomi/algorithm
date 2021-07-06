@@ -19,6 +19,20 @@ print(homonym(l))
 print(homonym(l2))
 
 
+# Pythonic한 풀이
+def homonym_pythonic(l):
+    s = set()
+    for i in l[:-1]:
+        if l.count(i) >= 2:
+            s.add(i)
+    return s
+
+l = ["Tom", "Jerry", "Mike", "Tom"]
+l2 = ["Tom", "Jerry", "Mike", "Tom", "Mike"]
+print(homonym_pythonic(l))
+print(homonym_pythonic(l2))
+
+
 # 책 풀이
 def find_same_name(a):
     n = len(a)
